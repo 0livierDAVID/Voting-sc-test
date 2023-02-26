@@ -1,8 +1,7 @@
 # Voting smart contract tests
 Tests for the Voting smart contract
 
-## Tests with Truffle suite
-### List of tests performed
+## List of tests performed
     * modifiers
         * onlyOwner
         * onlyVoters
@@ -55,6 +54,12 @@ Tests for the Voting smart contract
             * emit event WorkflowStatusChange  
 
 
+## Tests with Truffle suite
 ### Output of `truffle test` command
 ![Truffle test command output part 1](docs/Truffle-test-output-1.png)
 ![Truffle test command output part 2](docs/Truffle-test-output-2.png)
+
+## Tests with Hardhat suite
+### Output of `npx hardhat coverage` command
+![Hardhat test command output part 1](docs/Hardhat-test-output-1.png)
+![Hardhat test command output part 2](docs/Hardhat-test-output-2.png)
